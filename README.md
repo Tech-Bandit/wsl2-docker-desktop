@@ -8,13 +8,13 @@ Install and integrate docker desktop with WSL2
 - Go to **Settings**->**Resouces**->**WSL Integration**->**Ubuntu*
 -Open Ubuntu 
 - run 
-```
-sudo docker -v
-sudo docker run hello-world
-```
+> ```
+> sudo docker -v
+> sudo docker run hello-world
+> ```
 
 - Check Docker-Compose
-> - `docker-compose -v`
+> `docker-compose -v`
 
 -Install Portainer-
 Creatre portainer data volume 
