@@ -5,6 +5,7 @@ Install and integrate docker desktop with WSL2
 - Install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) from Docker Hub
 - Verify WSL2 by running ``wsl -l -v`` in **Powershell** 
 > ![Powershell-Check](/Images/pwsh_img.PNG)
+- above is a picture
 - Go to **Settings**->**Resouces**->**WSL Integration**->**Ubuntu**
 
 # Verify 
@@ -26,7 +27,7 @@ Create a portainer volume for data
 > ```
 
 # Access portainer
-> - Open a browser and type in:
+- Open a browser and type in:
 > `http://localhost:9000`
 
 - Choose Local
