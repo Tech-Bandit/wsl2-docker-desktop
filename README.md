@@ -5,7 +5,7 @@ Install and integrate docker desktop with WSL2
 - Install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) from Docker Hub
 - Verify WSL2 by running ``wsl -l -v`` in **Powershell** 
 > ![Powershell-Check](/Images/pwsh_img.PNG)
-- Go to **Settings**->**Resouces**->**WSL Integration**->**Ubuntu*
+- Go to **Settings**->**Resouces**->**WSL Integration**->**Ubuntu**
 
 # Verify 
 - Open Ubuntu 
@@ -17,25 +17,26 @@ Install and integrate docker desktop with WSL2
 > - Check Docker-Compose
 > `docker-compose -v`
 
-# Install Portainer-
-Creatre portainer data volume 
+# Install Portainer
+Create a portainer volume for data
 > ```
 > cd 
 > docker volume create portainer_data
 > docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 ```
 
-- Access portainer
+# Access portainer
 > - Open a browser and type in:
 > `http://localhost:9000`
 
-Choose Local
+- Choose Local
 
--Remove Container-
-sudo docker rm <TAB> 
+# Cleanup Commands
+- Remove Container
+`sudo docker rm <TAB> `
 
--Remove Image-
-sudo docker rmi <TAB>
+- Remove Image
+`sudo docker rmi <TAB>`
 
--Remove Volume-
-sudo docker volume rm <TAB>
+- Remove Volume
+`sudo docker volume rm <TAB>`
