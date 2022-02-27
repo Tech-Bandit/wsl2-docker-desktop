@@ -35,7 +35,8 @@ Create a portainer volume for data
 - Go to **Settings** and under **App Templetes**
 - Check **Use external templetes**
 > Paste this: `https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v2.json`
-> - Taken from this ![github page](https://github.com/SelfhostedPro/selfhosted_templates)
+> [templete](Images/portainer-temp.png)
+> - ### Taken from this ![github page](https://github.com/SelfhostedPro/selfhosted_templates)
 
 
 # Cleanup Commands
