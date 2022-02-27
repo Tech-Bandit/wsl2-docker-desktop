@@ -38,7 +38,7 @@ Create a portainer volume for data
 > `https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v2.json`
 > 
 > ![Repo](Images/portainer-temp.PNG)
-> - ### Taken from this ![github page](https://github.com/SelfhostedPro/selfhosted_templates)
+> - ### Taken from this [github page](https://github.com/SelfhostedPro/selfhosted_templates)
 
 
 # Cleanup Commands
