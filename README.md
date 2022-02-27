@@ -30,7 +30,7 @@ Create a portainer volume for data
 - Open a browser and type in:
 > `http://localhost:9000`
 
-# Add portainer repo templets 
+# Add portainer repo templates 
 - Choose Local
 - Go to **Settings** and under **App Templetes**
 - Check **Use external templetes**
