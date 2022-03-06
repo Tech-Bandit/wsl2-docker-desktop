@@ -50,3 +50,6 @@ Create a portainer volume for data
 
 - Remove Volume
 `sudo docker volume rm <TAB>`
+
+- Docs
+https://docs.docker.com/desktop/windows/
